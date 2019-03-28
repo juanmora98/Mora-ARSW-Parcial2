@@ -1,0 +1,3 @@
+com\edu\eci\arsw\weather\weather\WeatherApplication.class
+com\edu\eci\arsw\weather\weather\services\impl\HttpConnectionExample.class
+com\edu\eci\arsw\weather\weather\services\HttpConnect.class

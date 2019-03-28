@@ -1,0 +1,12 @@
+#map-canvas {
+  width: 640px;
+  height: 420px;
+  border-radius: 10%;
+}
+.gm-style-iw {
+  text-align: center;
+}
+
+.title {
+  color: forestgreen;
+}
