@@ -12,7 +12,11 @@ import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.concurrent.ConcurrentHashMap;
+import org.springframework.stereotype.Component;
 
+
+
+@Component
 public class HttpConnectionExample implements HttpConnect{
 
     private static final String USER_AGENT = "Mozilla/5.0";
