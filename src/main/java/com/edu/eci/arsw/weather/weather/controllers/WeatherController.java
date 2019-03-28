@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 
 @RestController
-@RequestMapping("/weather")
+@RequestMapping("")
 public class WeatherController {
     
     
