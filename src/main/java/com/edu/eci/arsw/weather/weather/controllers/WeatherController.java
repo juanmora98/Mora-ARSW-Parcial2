@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 
 @RestController
-@RequestMapping("")
+@RequestMapping("/weather")
 public class WeatherController {
     
     
@@ -30,7 +30,7 @@ public class WeatherController {
     private HttpConnect weatherServices;
 
     @ResponseBody
-    @RequestMapping(method = RequestMethod.GET)
+    @RequestMapping(value="/{city}",method = RequestMethod.GET)
     public ResponseEntity<?> getWeather(@RequestBody String city){
         try{
             return new ResponseEntity<>(weatherServices.getCity(city), HttpStatus.OK);
