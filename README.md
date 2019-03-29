@@ -1,5 +1,8 @@
 # Parcial 2 ARSW-T2
 
+Nota esperada: 2.5
+
+
 Parcial del segundo tercio
 
 Su compañía lo ha seleccionado para construir una aplicación para consultar el estado del clima en lugares específicos de la tierra.  
