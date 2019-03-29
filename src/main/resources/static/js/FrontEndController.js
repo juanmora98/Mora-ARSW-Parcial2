@@ -1,16 +1,16 @@
 var weather = (function(){
-	var weather;	
-	return{
-		setweather : function(tiempo){                    
-                    weather = tiempo;
-		},
-                getweather : function(){
-                    return weather;
-                },
-		resetAll : function(){
-			weather = 0;
-		}
-	}
+    var weather;	
+    return{
+        setweather : function(tiempo){                    
+            weather = tiempo;
+        },
+        getweather : function(){
+            return weather;
+        },
+        resetAll : function(){
+                weather = 0;
+        }
+    }
 })();
 
 async function inicio(){
